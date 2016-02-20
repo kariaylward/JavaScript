@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Working with mouse event handlers</title>
+<script>
+<!--start hiding Javascript statements
+function DisplayMessage(msgInput){
+document.getElementById('Msg').innerHTML = msgInput;
+}
+//End hiding Javascript stagements -->
+</script>
+</head>
+
+<body>
+<a href="www.starwars.com"
+onmouseover='DisplayMessage("May the force be with you!")';
+onmouseout='DisplayMessage("Beware of the dark side.")';>
+Go to Starwars.com</a>
+<div id="Msg"></div>
+</body>
+</html>
